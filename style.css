@@ -41,3 +41,18 @@ canvas {
   display: flex;
   gap: 10px;
 }
+
+/* ✨ Transitions */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #00ff88;
+  color: black;
+}
