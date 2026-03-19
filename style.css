@@ -1,1 +1,44 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial;
+}
 
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topbar {
+  background: #1a1a1a;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preview {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  background: #222;
+  border-radius: 10px;
+}
+
+.timeline {
+  background: #181818;
+  padding: 10px;
+}
+
+.tools {
+  background: #111;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
